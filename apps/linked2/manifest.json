@@ -1,0 +1,61 @@
+{
+  "name": "linked2",
+  "slug": "linked2",
+  "desc": "Module recovered from this device and packaged for deployment.",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "index.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "build": "mkdir -p dist && find . -maxdepth 3 -name '*.html' -exec cp {} dist/ \\; 2>/dev/null || true",
+    "start": "python3 -m http.server 8000 --directory dist",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    ".example": 1,
+    ".txt": 3,
+    "": 4,
+    ".md": 2,
+    ".py": 45,
+    ".json": 88,
+    ".sh": 37,
+    ".html": 1,
+    ".zsh": 2,
+    ".js": 2,
+    ".mk": 1,
+    ".bat": 1,
+    ".last": 1,
+    ".cmake": 1,
+    ".farf": 1,
+    ".ps1": 6
+  },
+  "nfiles": 196,
+  "roots": [
+    "~/github_sync/linked2-platform",
+    "~/github_sync/linked2-platform-salvage-1779151043",
+    "~/github_sync/Linked2-platform",
+    "~/github_sync/c25-deploy-linked2"
+  ],
+  "versions": [
+    "2026-09-03_ad0714_c25-deploy-linked2.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

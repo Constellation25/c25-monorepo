@@ -1,0 +1,9 @@
+{
+  "$schema": "https://vercel.sh",
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

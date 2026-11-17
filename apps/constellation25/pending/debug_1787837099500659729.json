@@ -1,0 +1,12 @@
+{
+  "task_id": "debug_1787837099500659729",
+  "timestamp": "2026-08-27T09:24:59-04:00",
+  "priority": "CRITICAL",
+  "assigned_agent": "Earth",
+  "debugger": "Qwen/Ollama",
+  "payload": {
+    "source_script": "Error",
+    "error_log": "Error: could not connect to ollama server, run 'ollama serve' to start it",
+    "action": "analyze_and_fix"
+  }
+}

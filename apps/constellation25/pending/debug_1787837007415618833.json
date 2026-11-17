@@ -1,0 +1,12 @@
+{
+  "task_id": "debug_1787837007415618833",
+  "timestamp": "2026-08-27T09:23:27-04:00",
+  "priority": "CRITICAL",
+  "assigned_agent": "Earth",
+  "debugger": "Qwen/Ollama",
+  "payload": {
+    "source_script": "if",
+    "error_log": "if echo "$line" | grep -iqE "error|exception|failed|traceback|syntaxerror"; then",
+    "action": "analyze_and_fix"
+  }
+}

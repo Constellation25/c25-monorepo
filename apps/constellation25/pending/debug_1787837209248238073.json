@@ -1,0 +1,12 @@
+{
+  "task_id": "debug_1787837209248238073",
+  "timestamp": "2026-08-27T09:26:50-04:00",
+  "priority": "CRITICAL",
+  "assigned_agent": "Earth",
+  "debugger": "Qwen/Ollama",
+  "payload": {
+    "source_script": "OSError",
+    "error_log": "OSError: [Errno 98] Address already in use",
+    "action": "analyze_and_fix"
+  }
+}

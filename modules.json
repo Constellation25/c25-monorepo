@@ -1,0 +1,903 @@
+[
+  {
+    "name": "agentik",
+    "slug": "agentik",
+    "desc": "C25 Constellation25 module - agentik",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "index.html",
+      "docs/index.html",
+      "docs/bitpay/index.html",
+      "product/web/index.html",
+      "public/index.html",
+      "src/web/index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "start": "node index.js 2>/dev/null || bash run.sh",
+      "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+      "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 76,
+    "roots": [
+      "~/agentik",
+      "~/github_sync/agentik",
+      "~/archives/agentik/agentik",
+      "~/repo_chain/Agentik",
+      "~/github_sync/c25-archive-agentik",
+      "~/github_sync/Agentik"
+    ],
+    "versions": [
+      "2026-08-29_04e521_agentik.html",
+      "2026-09-03_582d06_c25-archive-agentik.html",
+      "2026-09-03_b5251a_Agentik.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 92,
+    "trunc": false
+  },
+  {
+    "name": "aikre8tive",
+    "slug": "aikre8tive",
+    "desc": "\u26a1 ARC.AI-Stargate Advanced Biometric Authentication Engine",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "index.html",
+      "platform/PingPangDemo/frontend/index.html",
+      "platform/logs/aikre8tive_log_dialog.html",
+      "platform/logs/percellified.html",
+      "platform/logs/tailwind_view.html",
+      "platform/planetary-deployment/static/index.html",
+      "platform/qr/affiliate_portal.html",
+      "public/index.html"
+    ],
+    "routes": [
+      "GET /",
+      "GET /healthz",
+      "POST /run-task",
+      "POST /trigger-deployment",
+      "ROUTE /",
+      "ROUTE /healthz",
+      "ROUTE /log_click",
+      "ROUTE /pixel.gif",
+      "ROUTE /qr_affiliate.png",
+      "ROUTE /redirect",
+      "ROUTE /run-task",
+      "ROUTE /trigger-deployment"
+    ],
+    "scripts": {
+      "build": "vite build",
+      "c25:serve": "node c25-serve.cjs",
+      "start": "node c25-serve.cjs"
+    },
+    "nfiles": 183,
+    "roots": [
+      "~/github_sync/AiKre8tive-Stargate",
+      "~/github_sync/aikre8tive",
+      "~/github_sync/aikre8tive-planetary-grid",
+      "~/github_sync/AiKre8tive-ProofStack",
+      "~/repo_chain/aikre8tive",
+      "~/github_sync/ai-kre8tive-sovereign-genesis",
+      "~/github_sync/aikre8tive-sovereign-genesis",
+      "~/github_sync/AiKre8tive_Sovereign_Genesis",
+      "~/AiKre8tiveGenesis",
+      "~/github_sync/AiKre8tive-Sovereign",
+      "~/github_sync/AiKre8tive-",
+      "~/aikre8tive",
+      "~/AiKre8tive_ONE",
+      "~/github_sync/AiKre8tive.us",
+      "~/github_sync/AiKre8tive-Investor-Assets"
+    ],
+    "versions": [
+      "2026-09-03_0892e4_ai-kre8tive-sovereign-ge.html",
+      "2026-09-03_1d1acc_AiKre8tive-Sovereign-Gen.html",
+      "2026-09-03_293050_AiKre8tive-Stargate.html",
+      "2026-09-03_6427b7_AiKre8tive-Sovereign.html",
+      "2026-09-03_6539d2_AiKre8tive-Sovereign-Gen.html",
+      "2026-09-03_79b568_AiKre8tive-.html",
+      "2026-09-03_923281_aikre8tive.html",
+      "2026-09-03_98724a_aikre8tive-sovereign-gen.html",
+      "2026-09-03_d192ea_AiKre8tive-ProofStack.html",
+      "2026-09-03_ef9abf_AiKre8tive-us.html",
+      "2026-09-07_2b1d41_AiKre8tive-ONE.html",
+      "2026-09-07_5c67e2_aikre8tive.html",
+      "2026-09-07_80a87b_AiKre8tiveGenesis.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 209,
+    "trunc": false
+  },
+  {
+    "name": "aimetaverse",
+    "slug": "aimetaverse",
+    "desc": "C25 Constellation25 module - AiMeta",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "index.html",
+      "AIMetaverseFrontend/public/index.html",
+      "public/index.html"
+    ],
+    "routes": [
+      "GET /",
+      "GET /agents",
+      "GET /api/agents",
+      "GET /api/users",
+      "GET /api/worlds",
+      "GET /health",
+      "POST /chat",
+      "ROUTE /",
+      "ROUTE /agents",
+      "ROUTE /chat"
+    ],
+    "scripts": {
+      "start": "node index.js 2>/dev/null || bash run.sh",
+      "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+      "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 33,
+    "roots": [
+      "~/github_sync/AiMeta",
+      "~/github_sync/aimetaverse-demo",
+      "~/github_sync/AiMetaverse",
+      "~/github_sync/AiMetaverse-Orgin",
+      "~/repo_chain/AiMetaverse"
+    ],
+    "versions": [
+      "2026-09-03_0801c7_AiMeta.html",
+      "2026-09-03_1dc8ca_AiMetaverse.html",
+      "2026-09-03_3f681a_AiMetaverse-Orgin.html",
+      "2026-09-03_76290d_aimetaverse-demo.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 50,
+    "trunc": false
+  },
+  {
+    "name": "arcai",
+    "slug": "arcai",
+    "desc": "C25 Constellation25 module - c25-arcai-copy-3",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "index.html",
+      "public/index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "start": "node index.js 2>/dev/null || bash run.sh",
+      "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+      "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 13,
+    "roots": [
+      "~/github_sync/c25-arcai-copy-3",
+      "~/github_sync/c25-arcai-original-oldest",
+      "~/github_sync/c25-arcai-copy-1",
+      "~/github_sync/c25-arcai-copy-4",
+      "~/github_sync/c25-arcai-original",
+      "~/github_sync/c25-arcai-deploy",
+      "~/github_sync/c25-arcai-copy-2",
+      "~/repo_chain/arcai-",
+      "~/github_sync/arcai-"
+    ],
+    "versions": [
+      "2026-09-03_21025e_c25-arcai-copy-1.html",
+      "2026-09-03_303293_c25-arcai-copy-4.html",
+      "2026-09-03_3cadca_c25-arcai-original-oldes.html",
+      "2026-09-03_53f25b_c25-arcai-original.html",
+      "2026-09-03_675b7e_c25-arcai-deploy.html",
+      "2026-09-03_ff7dac_c25-arcai-copy-3.html",
+      "2026-09-03_ffaa34_c25-arcai-copy-2.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 33,
+    "trunc": false
+  },
+  {
+    "name": "constellation25",
+    "slug": "constellation25",
+    "desc": "Overview This module contains configuration, backend logic, and frontend components.",
+    "kind": "recovered 2026-08-29",
+    "entry": "index.html",
+    "pages": [
+      "index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "c25:serve": "node c25-serve.cjs",
+      "start": "node c25-serve.cjs"
+    },
+    "nfiles": 20001,
+    "roots": [
+      "~/c25_ipc",
+      "~/c25_aios",
+      "~/github_sync/constellation25",
+      "~/github-repos/constellation25",
+      "~/github_sync/C25-mono",
+      "~/repo_chain/constellation25",
+      "~/github_sync/c25-sovereign-product",
+      "~/repo_chain/constellation25-mono",
+      "~/repo_chain/c25-agent-api",
+      "~/constellation25-os",
+      "~/github_sync/c25-live",
+      "~/repo_chain/c25-outputs-20260316_192522",
+      "~/github_sync/c25-outputs-20260316_192522",
+      "~/repo_chain/c25-master",
+      "~/github_sync/c25-master",
+      "~/repo_chain/c25-repodepo",
+      "~/github_sync/c25-repodepo",
+      "~/github_sync/constellation-25-live",
+      "~/github_sync/c25-agent-api",
+      "~/github_sync/.c25_mcp",
+      "~/c25_engine_logs",
+      "~/github_sync/c25-agent-deploy",
+      "~/github_sync/.c25_emergency_quarantine",
+      "~/repo_chain/c25-agent-core",
+      "~/github_sync/c25-agent-core",
+      "~/github_sync/.c25",
+      "~/github_sync/constellation-25",
+      "~/github_sync/c25-vercel-deploy",
+      "~/github_sync/c25-agent-pipeline",
+      "~/github_sync/constellation25-recon",
+      "~/github_sync/c25-constellation25",
+      "~/github_sync/c25-build-bash",
+      "~/github_sync/c25-1basher",
+      "~/github_sync/c25-integrity-run",
+      "~/github_sync/c25-deploy",
+      "~/github_sync/c25-build",
+      "~/github_sync/c25-launch",
+      "~/github_sync/c25-launch-presskit",
+      "~/github_sync/c25-deploy-agents",
+      "~/github_sync/c25-broadcast-whisper-echo",
+      "~/github_sync/c25_static_master",
+      "~/c25_selfknowledge",
+      "~/repo_chain/c25-monorepo",
+      "~/github_sync/c25-agents",
+      "~/github_sync/c25-pypi",
+      "~/github_sync/c25-planetary-crawl-inject-loop",
+      "~/github_sync/c25-ping-agents",
+      "~/github_sync/c25-meaningful-inventory",
+      "~/github_sync/c25-meaningful-inventory-fixed",
+      "~/github_sync/c25-launch-tunnel",
+      "~/github_sync/c25-launch-agents",
+      "~/github_sync/c25-kre8tive-portfolio-build",
+      "~/github_sync/c25-install-qrencode",
+      "~/github_sync/c25-inject-versedna",
+      "~/github_sync/c25-generate-qr-affiliate",
+      "~/github_sync/c25-fp-clean-forks",
+      "~/github_sync/c25-find-and-run-everything",
+      "~/github_sync/c25-do",
+      "~/github_sync/c25-direct-agent-activation",
+      "~/github_sync/c25-deploy-to-github",
+      "~/github_sync/c25-create-home-symlinks",
+      "~/github_sync/c25-constellation-25",
+      "~/github_sync/c25-check-todo",
+      "~/github_sync/c25-check-status",
+      "~/github_sync/c25-c25-ranger",
+      "~/github_sync/c25-buzzblast",
+      "~/github_sync/c25-build-precedence-dossier",
+      "~/github_sync/c25-build-memoria",
+      "~/github_sync/c25-build-fixer-agent",
+      "~/github_sync/c25-build-broccoli",
+      "~/github_sync/c25-bio-push",
+      "~/github_sync/c25-agent-dashboard",
+      "~/github_sync/c25-agent-automation",
+      "~/github_sync/c25-recloak",
+      "~/github_sync/c25-rebuild-percellify",
+      "~/github_sync/c25-reactivate-planetary-agents",
+      "~/github_sync/c25-quick-deploy",
+      "~/github_sync/c25-package-portfolio",
+      "~/github_sync/c25-mars-sharecrop",
+      "~/github_sync/c25-link-github",
+      "~/github_sync/c25-key-rotate",
+      "~/github_sync/c25-install",
+      "~/github_sync/c25-git-autocommit",
+      "~/github_sync/c25-fp-consolidate",
+      "~/github_sync/c25-fp-code-audit",
+      "~/github_sync/c25-forensic-scan-365d",
+      "~/github_sync/c25-fix-everything",
+      "~/github_sync/c25-final-sync",
+      "~/github_sync/c25-deploy-universe",
+      "~/github_sync/c25-deploy-sovereign",
+      "~/github_sync/c25-deploy-log-dialog",
+      "~/github_sync/c25-deploy-all",
+      "~/github_sync/c25-dashboard",
+      "~/github_sync/c25-constellation25-swarm",
+      "~/github_sync/c25-constellation",
+      "~/github_sync/c25-consolidate-obsidian",
+      "~/github_sync/c25-cleanup-failed",
+      "~/github_sync/c25-blackbox-github-update",
+      "~/github_sync/c25-bioauth",
+      "~/github_sync/c25-backfill-artifacts-from-done",
+      "~/github_sync/c25-agent-starter",
+      "~/github_sync/c25-agent-integrations",
+      "~/github_sync/c25-c25-mirror-push",
+      "~/c25_textbook",
+      "~/github_sync/c25-monorepo",
+      "~/c25_map",
+      "~/c25_platform",
+      "~/github_sync/constellation25-mvp",
+      "~/github_sync/c25-demo-teaser",
+      "~/repo_chain/c25-termux-addon",
+      "~/repo_chain/c25-training-corpus",
+      "~/github_sync/c25-whisper-holiday-bash",
+      "~/github_sync/c25-whisper-auto-loop",
+      "~/github_sync/c25-vercel-secrets-sync",
+      "~/github_sync/c25-throne",
+      "~/github_sync/c25-test-project",
+      "~/github_sync/c25-test-agents",
+      "~/github_sync/c25-tailwind-view",
+      "~/github_sync/c25-sync-to-obsidian",
+      "~/github_sync/c25-sync-obsidian-cloud",
+      "~/github_sync/c25-start-stack",
+      "~/github_sync/c25-sovereign-unified-launch",
+      "~/github_sync/c25-sovereign-push-everywhere",
+      "~/github_sync/c25-sovereign-launch",
+      "~/github_sync/c25-sovereign-deployer",
+      "~/github_sync/c25-sovereign-auto-start",
+      "~/github_sync/c25-setup",
+      "~/github_sync/c25-setup-vscode",
+      "~/github_sync/c25-setup-termux-obsidian-sync",
+      "~/github_sync/c25-setup-ssh",
+      "~/github_sync/c25-setup-single-repo",
+      "~/github_sync/c25-setup-shizuku",
+      "~/github_sync/c25-setup-pingpang-demo",
+      "~/github_sync/c25-setup-multi-repo",
+      "~/github_sync/c25-send-echo-trace",
+      "~/github_sync/c25-secure-github-auth",
+      "~/github_sync/c25-run",
+      "~/github_sync/c25-run-stack",
+      "~/github_sync/c25-run-monorepo",
+      "~/github_sync/c25-run-all-home",
+      "~/github_sync/c25-run-all-tasks",
+      "~/github_sync/c25-run-all-apps",
+      "~/c25_temp_configs",
+      "~/github_sync/constellation25-adserver",
+      "~/c25_os",
+      "~/c25_backup_restored",
+      "~/C25-MASTER",
+      "~/github_sync/c25-termux-addon",
+      "~/c25_monorepo",
+      "~/repo_chain/c25-fdroid-repo",
+      "~/github_sync/c25-training-corpus",
+      "~/github_sync/c25-graph-viewer",
+      "~/github_sync/c25-fdroid-repo",
+      "~/github_sync/.c25_diag",
+      "~/repo_chain/c25-deploy-router",
+      "~/github_sync/.c25_migrations",
+      "~/github_sync/.c25_bridge"
+    ],
+    "versions": [
+      "2026-08-29_04e521_constellation25.html",
+      "2026-08-29_0801c7_constellation25.html",
+      "2026-08-29_0892e4_constellation25.html",
+      "2026-08-29_1d1acc_constellation25.html",
+      "2026-08-29_293050_constellation25.html",
+      "2026-08-29_42b407_constellation25.html",
+      "2026-08-29_4de356_constellation25.html",
+      "2026-08-29_5462f3_constellation25.html",
+      "2026-08-29_54ba0d_constellation25.html",
+      "2026-08-29_56488e_constellation25.html",
+      "2026-08-29_56e88e_constellation25.html",
+      "2026-08-29_5dcbe8_constellation25.html",
+      "2026-08-29_6539d2_constellation25.html",
+      "2026-08-29_6e0a07_constellation25.html",
+      "2026-08-29_73c943_constellation25.html",
+      "2026-08-29_79b568_constellation25.html",
+      "2026-08-29_923281_constellation25.html",
+      "2026-08-29_98724a_constellation25.html",
+      "2026-08-29_aaba39_constellation25.html",
+      "2026-08-29_c03eb7_constellation25.html",
+      "2026-08-29_ce945d_constellation25.html",
+      "2026-08-29_e83fa7_constellation25.html",
+      "2026-08-29_e9db2a_constellation25.html",
+      "2026-08-29_ef9abf_constellation25.html",
+      "2026-08-29_f84fe0_constellation25.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 8000,
+    "trunc": true
+  },
+  {
+    "name": "cygnus",
+    "slug": "cygnus",
+    "desc": "\u26a1 CygNusMaster- Advanced Biometric Authentication Engine",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "863143512(1).html",
+      "863143512.html",
+      "ePwKgKp69GE.html",
+      "index.html",
+      "inner.html",
+      "lj0bFX9HXeE.html",
+      "m-outer-93afeeb17bc37e711759584dbfc50d47.html",
+      "rul.html",
+      "saved_resource.html",
+      "public/index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "c25:serve": "node c25-serve.cjs",
+      "start": "node c25-serve.cjs"
+    },
+    "nfiles": 190,
+    "roots": [
+      "~/github_sync/CygNusMaster-"
+    ],
+    "versions": [
+      "2026-09-03_c9a4fd_CygNusMaster-.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 204,
+    "trunc": false
+  },
+  {
+    "name": "digital-dollar",
+    "slug": "digital-dollar",
+    "desc": "digital-dollar Constellation25 Sovereign AI OS \u2014 Kre8tive Konceptz LTD FacePrintPay | @MrGGTP | github.com/FacePrintPay",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [],
+    "routes": [],
+    "scripts": {
+      "build": "echo built",
+      "start": "echo ok",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 4,
+    "roots": [
+      "~/github_sync/digital-dollar"
+    ],
+    "versions": [],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 17,
+    "trunc": false
+  },
+  {
+    "name": "faceprintpay",
+    "slug": "faceprintpay",
+    "desc": "Central gateway for all services, vaults, and APIs",
+    "kind": "recovered 2026-09-03",
+    "entry": "index.html",
+    "pages": [
+      "index.html",
+      "agent_workspace/videocourts-main/index.html",
+      "frontend/public/index.html"
+    ],
+    "routes": [
+      "GET /",
+      "GET /health",
+      "ROUTE /",
+      "ROUTE /health"
+    ],
+    "scripts": {
+      "start": "node gateway.js",
+      "dev": "node gateway.js",
+      "build": "echo \"Build complete\"",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 153,
+    "roots": [
+      "~/repo_chain/FacePrintPay",
+      "~/github_sync/FacePrintPay",
+      "~/github_sync/https-github-com-faceprintpay-portaled-",
+      "~/github_sync/https-github.com-FacePrintPay-PoRTaLed-",
+      "~/github_sync/https-github.com-FacePrintPay-PoRTaLed-Nasa1",
+      "~/github_sync/FacePrintPay-Consolidated"
+    ],
+    "versions": [
+      "2026-09-03_4de356_FacePrintPay.html",
+      "2026-09-03_5dcbe8_FacePrintPay.html",
+      "2026-09-03_997ac3_https-github-com-facepri.html",
+      "2026-09-03_c03eb7_FacePrintPay.html",
+      "2026-09-03_f71f78_https-github-com-FacePri.html"
+    ],
+    "assets_got": 4,
+    "server_entry": "c25-serve.cjs",
+    "copied": 174,
+    "trunc": false
+  },
+  {
+    "name": "kre8tive-space",
+    "slug": "kre8tive-space",
+    "desc": "Module recovered from this device and packaged for deployment.",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "build": "mkdir -p dist && find . -maxdepth 3 -name '*.html' -exec cp {} dist/ \\; 2>/dev/null || true",
+      "start": "python3 -m http.server 8000 --directory dist",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 10,
+    "roots": [
+      "~/github_sync/kre8tive-konceptz"
+    ],
+    "versions": [
+      "2026-09-03_c7c765_kre8tive-konceptz.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 24,
+    "trunc": false
+  },
+  {
+    "name": "linked2",
+    "slug": "linked2",
+    "desc": "Module recovered from this device and packaged for deployment.",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "build": "mkdir -p dist && find . -maxdepth 3 -name '*.html' -exec cp {} dist/ \\; 2>/dev/null || true",
+      "start": "python3 -m http.server 8000 --directory dist",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 196,
+    "roots": [
+      "~/github_sync/linked2-platform",
+      "~/github_sync/linked2-platform-salvage-1779151043",
+      "~/github_sync/Linked2-platform",
+      "~/github_sync/c25-deploy-linked2"
+    ],
+    "versions": [
+      "2026-09-03_ad0714_c25-deploy-linked2.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 210,
+    "trunc": false
+  },
+  {
+    "name": "mybuyo-foodlion",
+    "slug": "mybuyo-foodlion",
+    "desc": "Central gateway for all services, vaults, and APIs",
+    "kind": "recovered 2026-09-03",
+    "entry": "index.html",
+    "pages": [
+      "index.html",
+      "frontend/public/index.html",
+      "services/dashboard/index.html",
+      "services/keys_api/index.html",
+      "services/swarm_api/index.html"
+    ],
+    "routes": [
+      "GET /",
+      "GET /health"
+    ],
+    "scripts": {
+      "start": "node gateway.js",
+      "dev": "node gateway.js",
+      "build": "echo \"static ready\"",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 138,
+    "roots": [
+      "~/github_sync/mybuyo-restore",
+      "~/github_sync/mybuyo-foodlion-mvp",
+      "~/github_sync/mybuyoxfoodlion-pitch",
+      "~/repo_chain/mybuyo-biometric-saas",
+      "~/github_sync/mybuyo-biometric-saas"
+    ],
+    "versions": [
+      "2026-09-03_8ecfde_mybuyo-foodlion-mvp.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 152,
+    "trunc": false
+  },
+  {
+    "name": "parasol",
+    "slug": "parasol",
+    "desc": "C25 Constellation25 module - c25-parasol-termux",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "index.html",
+      "public/index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "start": "node index.js 2>/dev/null || bash run.sh",
+      "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+      "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 12,
+    "roots": [
+      "~/github_sync/c25-parasol-termux"
+    ],
+    "versions": [
+      "2026-09-03_00ec23_c25-parasol-termux.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 26,
+    "trunc": false
+  },
+  {
+    "name": "pathos",
+    "slug": "pathos",
+    "desc": "\u26a1 PaThosAi Advanced Biometric Authentication Engine",
+    "kind": "recovered 2026-08-21",
+    "entry": "index.html",
+    "pages": [
+      "-PaTHos- (Cygel White's conflicted copy).html",
+      "index.html",
+      "public/index.html",
+      "virtual-platform/docs/agents.html",
+      "virtual-platform/docs/explainer.html",
+      "virtual-platform/docs/index.html"
+    ],
+    "routes": [
+      "GET /health",
+      "GET /modules",
+      "GET /protected",
+      "POST /execute",
+      "POST /login",
+      "POST /register"
+    ],
+    "scripts": {
+      "c25:serve": "node c25-serve.cjs",
+      "start": "node c25-serve.cjs"
+    },
+    "nfiles": 37,
+    "roots": [
+      "~/github/pathos",
+      "~/github_sync/PaThosAi",
+      "~/github_sync/pathos",
+      "~/github_sync/PaTHos-Ai-",
+      "~/github_sync/PaTHos-OS"
+    ],
+    "versions": [
+      "2026-08-21_54ba0d_pathos.html",
+      "2026-08-21_73c943_pathos.html",
+      "2026-09-03_cada8c_PaTHos-Ai-.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 53,
+    "trunc": false
+  },
+  {
+    "name": "sovereign-gtp",
+    "slug": "sovereign-gtp",
+    "desc": "ARC.AI ProofStack \ud83e\uddec This LEGYC Dash was deployed by MrGGTP as the official sovereign origin stack for ARC.AI.",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "badge_verification_20250803_195418.html",
+      "badge_verification_SCAF_Codex_20250803_195122.html",
+      "badge_verification_SCAF_Codex_20250803_195122_20250803_200221.html",
+      "badge_verification_SCAF_Codex_20250803_200648.html",
+      "badge_verification_SCAF_Codex_20250803_200925.html",
+      "index.html",
+      "logs/badge_verification_SCAF_Codex_PHASE2_20250803_201325.html",
+      "logs/badge_verification_SCAF_Codex_PHASE2_20250803_201415.html",
+      "logs/badge_verification_SCAF_Codex_PHASE3_20250803_201612.html",
+      "logs/badge_verification_SCAF_Codex_PHASE3_20250803_201651.html",
+      "logs/badge_verification_SCAF_Codex_PHASE3_20250803_201815.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "c25:serve": "node c25-serve.cjs",
+      "start": "node c25-serve.cjs"
+    },
+    "nfiles": 42,
+    "roots": [
+      "~/github/sovereigngtp",
+      "~/github_sync/AiKre8tive-Sovereign-GTP-",
+      "~/github_sync/SovereignGTP",
+      "~/github_sync/c25-sovereigngtp",
+      "~/sovereign_gtp",
+      "~/github_sync/sovereign-gtp"
+    ],
+    "versions": [
+      "2026-09-03_b642d9_c25-sovereigngtp.html",
+      "2026-09-03_ed5091_SovereignGTP.html",
+      "2026-09-07_34be62_sovereign-gtp.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 58,
+    "trunc": false
+  },
+  {
+    "name": "totalrecall",
+    "slug": "totalrecall",
+    "desc": "C25 TotalRecall \u2014 Bard Session Logs Owner: Cygel White / FacePrintPay / Kre8tive Konceptz Prior Art: 152 sessions documented from 2023\u20132024 System: Constellation-25 Sovereign AI Swarm SHA256 Anchor: 1f35a7c5f66482178d37e95175bf7380051e2ed5623c2263f0cbda2c1679833e",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [
+      "bard_logs/bard_20230322200654.html",
+      "bard_logs/bard_20230323002342.html",
+      "bard_logs/bard_20230324233918.html",
+      "bard_logs/bard_20230328000733.html",
+      "bard_logs/bard_20230328020722.html",
+      "bard_logs/bard_20230328091733.html",
+      "bard_logs/bard_20230328103652.html",
+      "bard_logs/bard_20230328111919.html",
+      "bard_logs/bard_20230328113313.html",
+      "bard_logs/bard_20230328124152.html",
+      "bard_logs/bard_20230328134746.html",
+      "bard_logs/bard_20230328135614.html",
+      "bard_logs/bard_20230328144747.html",
+      "bard_logs/bard_20230330005513.html",
+      "bard_logs/bard_20230410055241.html",
+      "bard_logs/bard_20230413011855.html",
+      "bard_logs/bard_20230414102958.html",
+      "bard_logs/bard_20230414231139.html",
+      "bard_logs/bard_20230414232015.html",
+      "bard_logs/bard_20230417023514.html",
+      "bard_logs/bard_20230417080622.html",
+      "bard_logs/bard_20230509064121.html",
+      "bard_logs/bard_20230510001733.html",
+      "bard_logs/bard_20230513071610.html",
+      "bard_logs/bard_20230518143345.html",
+      "bard_logs/bard_20230531185944.html",
+      "bard_logs/bard_20230606090318.html",
+      "bard_logs/bard_20230606103659.html",
+      "bard_logs/bard_20230624063725.html",
+      "bard_logs/bard_20230801101452.html",
+      "bard_logs/bard_20230810215345.html",
+      "bard_logs/bard_20230929142301.html",
+      "bard_logs/bard_20231218125720.html",
+      "bard_logs/bard_20240111173740.html",
+      "bard_logs/bard_20240113160544.html",
+      "bard_logs/bard_20240114092521.html",
+      "bard_logs/bard_20240116171114.html",
+      "bard_logs/bard_20240118014524.html",
+      "bard_logs/bard_20240118035518.html",
+      "bard_logs/bard_20240119105713.html",
+      "bard_logs/bard_20240119145157.html",
+      "bard_logs/bard_20240119192136.html",
+      "bard_logs/bard_20240120140828.html",
+      "bard_logs/bard_20240120220609.html",
+      "bard_logs/bard_20240121054913.html",
+      "bard_logs/bard_20240121074143.html",
+      "bard_logs/bard_20240122080556.html",
+      "bard_logs/bard_20240122080920.html",
+      "bard_logs/bard_20240122094351.html",
+      "bard_logs/bard_20240122104446.html",
+      "bard_logs/bard_20240122104941.html",
+      "bard_logs/bard_20240122225620.html",
+      "bard_logs/bard_20240122230217.html",
+      "bard_logs/bard_20240123025306.html",
+      "bard_logs/bard_20240123073146.html",
+      "bard_logs/bard_20240123103541.html",
+      "bard_logs/bard_20240123103950.html",
+      "bard_logs/bard_20240123172045.html",
+      "bard_logs/bard_20240123210502.html",
+      "bard_logs/bard_20240124033037.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "build": "echo built",
+      "start": "echo ok",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 162,
+    "roots": [
+      "~/github_sync/bard-totalrecall",
+      "~/github_sync/c25-totalrecall-audit",
+      "~/TotalRecall_Probe_20260828_234503",
+      "~/TotalRecall"
+    ],
+    "versions": [
+      "2026-09-03_a6392d_c25-totalrecall-audit.html",
+      "2026-09-07_89c9a7_TotalRecall-Probe-202608.html",
+      "2026-09-07_e4c1ad_TotalRecall.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 178,
+    "trunc": false
+  },
+  {
+    "name": "videocourts",
+    "slug": "videocourts",
+    "desc": "Module recovered from this device and packaged for deployment.",
+    "kind": "generated",
+    "entry": "index.html",
+    "pages": [],
+    "routes": [
+      "GET /",
+      "GET /health",
+      "GET /healthz",
+      "GET /modules",
+      "GET /user/:uid/photos/:file",
+      "POST /execute",
+      "POST /run-task",
+      "ROUTE /",
+      "ROUTE /healthz",
+      "ROUTE /log_click",
+      "ROUTE /pixel.gif",
+      "ROUTE /qr_affiliate.png",
+      "ROUTE /redirect",
+      "ROUTE /run-task"
+    ],
+    "scripts": {
+      "start": "echo 'Constellation25 module: videocourts_backend'",
+      "build": "echo 'Build complete'",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 6038,
+    "roots": [
+      "~/repo_chain/videocourts_backend",
+      "~/github_sync/videocourts_backend",
+      "~/repo_chain/VideoCourts",
+      "~/github_sync/VideoCourts",
+      "~/repo_chain/videocourts-org_BACKUP_1774926493",
+      "~/github_sync/videocourts-org_BACKUP_1774926493",
+      "~/github_sync/c25-find-videocourts",
+      "~/github_sync/VideoCourts-",
+      "~/github_sync/videocourts-org"
+    ],
+    "versions": [
+      "2026-09-03_4df4bd_VideoCourts.html",
+      "2026-09-03_86c623_c25-find-videocourts.html",
+      "2026-09-03_f69a9c_VideoCourts.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 6053,
+    "trunc": false
+  },
+  {
+    "name": "yesquid",
+    "slug": "yesquid",
+    "desc": "yesquid-pro Part of Constellation25 ecosystem.",
+    "kind": "original",
+    "entry": "public/index.html",
+    "pages": [
+      "index.html",
+      "public/index.html",
+      "yesquid-agents/index.html"
+    ],
+    "routes": [],
+    "scripts": {
+      "start": "echo OK",
+      "build": "echo built",
+      "c25:serve": "node c25-serve.cjs"
+    },
+    "nfiles": 25,
+    "roots": [
+      "~/yesquid-pro",
+      "~/github_sync/yesquid-pro",
+      "~/yesquidpro-omnibus",
+      "~/github_sync/c25-yesquid-task-worker"
+    ],
+    "versions": [
+      "2026-09-03_08d2a5_yesquid-pro.html",
+      "2026-09-03_623a66_c25-yesquid-task-worker.html",
+      "2026-09-03_f4937a_yesquid-pro.html",
+      "2026-09-07_20e811_yesquid-pro.html",
+      "2026-09-07_30eb76_yesquidpro-omnibus.html"
+    ],
+    "assets_got": 0,
+    "server_entry": "c25-serve.cjs",
+    "copied": 42,
+    "trunc": false
+  }
+]

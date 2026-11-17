@@ -1,0 +1,10 @@
+{
+  "name": "yesquid-pro",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo OK",
+    "build": "echo built",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "description": "yesquid-pro Part of Constellation25 ecosystem."
+}

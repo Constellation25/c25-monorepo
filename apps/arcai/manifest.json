@@ -1,0 +1,64 @@
+{
+  "name": "arcai",
+  "slug": "arcai",
+  "desc": "C25 Constellation25 module - c25-arcai-copy-3",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "index.html",
+    "public/index.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "start": "node index.js 2>/dev/null || bash run.sh",
+    "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+    "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 3,
+    ".md": 1,
+    ".sh": 2,
+    ".html": 2,
+    ".json": 3,
+    ".yml": 2
+  },
+  "nfiles": 13,
+  "roots": [
+    "~/github_sync/c25-arcai-copy-3",
+    "~/github_sync/c25-arcai-original-oldest",
+    "~/github_sync/c25-arcai-copy-1",
+    "~/github_sync/c25-arcai-copy-4",
+    "~/github_sync/c25-arcai-original",
+    "~/github_sync/c25-arcai-deploy",
+    "~/github_sync/c25-arcai-copy-2",
+    "~/repo_chain/arcai-",
+    "~/github_sync/arcai-"
+  ],
+  "versions": [
+    "2026-09-03_21025e_c25-arcai-copy-1.html",
+    "2026-09-03_303293_c25-arcai-copy-4.html",
+    "2026-09-03_3cadca_c25-arcai-original-oldes.html",
+    "2026-09-03_53f25b_c25-arcai-original.html",
+    "2026-09-03_675b7e_c25-arcai-deploy.html",
+    "2026-09-03_ff7dac_c25-arcai-copy-3.html",
+    "2026-09-03_ffaa34_c25-arcai-copy-2.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

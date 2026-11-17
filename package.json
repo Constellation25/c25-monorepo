@@ -1,1 +1,9 @@
-{"name":"c25-monorepo","version":"1.0.0"}
+{
+  "name": "constellation25",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Constellation25 compiled monorepo",
+  "scripts": {
+    "start": "node c25-serve.cjs"
+  }
+}

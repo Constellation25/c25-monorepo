@@ -1,0 +1,10 @@
+{
+  "name": "constellation25",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "c25:serve": "node c25-serve.cjs",
+    "start": "node c25-serve.cjs"
+  },
+  "description": "Overview This module contains configuration, backend logic, and frontend components."
+}

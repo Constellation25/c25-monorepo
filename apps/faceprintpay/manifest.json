@@ -1,0 +1,72 @@
+{
+  "name": "faceprintpay",
+  "slug": "faceprintpay",
+  "desc": "Central gateway for all services, vaults, and APIs",
+  "kind": "recovered 2026-09-03",
+  "entry": "index.html",
+  "pages": [
+    "index.html",
+    "agent_workspace/videocourts-main/index.html",
+    "frontend/public/index.html"
+  ],
+  "routes": [
+    "GET /",
+    "GET /health",
+    "ROUTE /",
+    "ROUTE /health"
+  ],
+  "scripts": {
+    "start": "node gateway.js",
+    "dev": "node gateway.js",
+    "build": "echo \"Build complete\"",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 8,
+    ".md": 17,
+    ".sh": 18,
+    ".py": 23,
+    ".js": 5,
+    ".html": 3,
+    ".txt": 10,
+    ".json": 61,
+    ".toml": 1,
+    ".css": 1,
+    ".yml": 1,
+    ".example": 1,
+    ".sha256": 1,
+    ".gz": 2,
+    ".whl": 1
+  },
+  "nfiles": 153,
+  "roots": [
+    "~/repo_chain/FacePrintPay",
+    "~/github_sync/FacePrintPay",
+    "~/github_sync/https-github-com-faceprintpay-portaled-",
+    "~/github_sync/https-github.com-FacePrintPay-PoRTaLed-",
+    "~/github_sync/https-github.com-FacePrintPay-PoRTaLed-Nasa1",
+    "~/github_sync/FacePrintPay-Consolidated"
+  ],
+  "versions": [
+    "2026-09-03_4de356_FacePrintPay.html",
+    "2026-09-03_5dcbe8_FacePrintPay.html",
+    "2026-09-03_997ac3_https-github-com-facepri.html",
+    "2026-09-03_c03eb7_FacePrintPay.html",
+    "2026-09-03_f71f78_https-github-com-FacePri.html"
+  ],
+  "assets_got": 4,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "debug_1787837423095756805",
+  "timestamp": "2026-08-27T09:30:23-04:00",
+  "priority": "CRITICAL",
+  "assigned_agent": "Earth",
+  "debugger": "Qwen/Ollama",
+  "payload": {
+    "source_script": "jq",
+    "error_log": "jq: error: Could not open file package.json: No such file or directory",
+    "action": "analyze_and_fix"
+  }
+}

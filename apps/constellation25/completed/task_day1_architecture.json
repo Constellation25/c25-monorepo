@@ -1,0 +1,17 @@
+{
+  "agent": "Neptune",
+  "priority": "CRITICAL",
+  "task": "Read the 20 most important foundational files chronologically. Focus on: wake_the_beast.sh, setup_tux.sh, c25_ipc files, agent scripts, and core configs. Write canonical textbook chapter.",
+  "payload": {
+    "action": "canonical_documentation",
+    "phase": "day1_architecture",
+    "smart_selection": true,
+    "max_files": 20,
+    "skip_patterns": ["node_modules", "package-lock.json", ".npm", ".cache", "__pycache__", ".git", "coverage", "dist", "build"],
+    "priority_extensions": [".py", ".sh", ".js", ".json", ".md", ".env", ".sql"],
+    "output": "~/c25_textbook/chapters/01_foundation.md",
+    "style": "textbook_canonical",
+    "wake_ollama": true,
+    "model": "qwen2.5-coder:7b"
+  }
+}

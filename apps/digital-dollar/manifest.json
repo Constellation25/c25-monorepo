@@ -1,0 +1,41 @@
+{
+  "name": "digital-dollar",
+  "slug": "digital-dollar",
+  "desc": "digital-dollar Constellation25 Sovereign AI OS \u2014 Kre8tive Konceptz LTD FacePrintPay | @MrGGTP | github.com/FacePrintPay",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [],
+  "routes": [],
+  "scripts": {
+    "build": "echo built",
+    "start": "echo ok",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 1,
+    ".md": 1,
+    ".json": 2
+  },
+  "nfiles": 4,
+  "roots": [
+    "~/github_sync/digital-dollar"
+  ],
+  "versions": [],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "aimetaverse",
+  "slug": "aimetaverse",
+  "desc": "C25 Constellation25 module - AiMeta",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "index.html",
+    "AIMetaverseFrontend/public/index.html",
+    "public/index.html"
+  ],
+  "routes": [
+    "GET /",
+    "GET /agents",
+    "GET /api/agents",
+    "GET /api/users",
+    "GET /api/worlds",
+    "GET /health",
+    "POST /chat",
+    "ROUTE /",
+    "ROUTE /agents",
+    "ROUTE /chat"
+  ],
+  "scripts": {
+    "start": "node index.js 2>/dev/null || bash run.sh",
+    "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+    "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 4,
+    ".md": 2,
+    ".2": 1,
+    ".html": 3,
+    ".json": 8,
+    ".sh": 2,
+    ".yml": 2,
+    ".py": 1,
+    ".txt": 1,
+    ".js": 6,
+    ".20260311": 1,
+    ".css": 2
+  },
+  "nfiles": 33,
+  "roots": [
+    "~/github_sync/AiMeta",
+    "~/github_sync/aimetaverse-demo",
+    "~/github_sync/AiMetaverse",
+    "~/github_sync/AiMetaverse-Orgin",
+    "~/repo_chain/AiMetaverse"
+  ],
+  "versions": [
+    "2026-09-03_0801c7_AiMeta.html",
+    "2026-09-03_1dc8ca_AiMetaverse.html",
+    "2026-09-03_3f681a_AiMetaverse-Orgin.html",
+    "2026-09-03_76290d_aimetaverse-demo.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

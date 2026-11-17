@@ -1,0 +1,12 @@
+{
+  "task_id": "debug_1787837248398452122",
+  "timestamp": "2026-08-27T09:27:29-04:00",
+  "priority": "CRITICAL",
+  "assigned_agent": "Earth",
+  "debugger": "Qwen/Ollama",
+  "payload": {
+    "source_script": "debug_1787837205537256115.json",
+    "error_log": "[Thu Aug 27 09:26:46 EDT 2026] DISPATCHED to Earth: ERROR -> /data/data/com.termux/files/home/c25_ipc/pending/debug_1787837205537256115.json",
+    "action": "analyze_and_fix"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "mybuyo-foodlion",
+  "slug": "mybuyo-foodlion",
+  "desc": "Central gateway for all services, vaults, and APIs",
+  "kind": "recovered 2026-09-03",
+  "entry": "index.html",
+  "pages": [
+    "index.html",
+    "frontend/public/index.html",
+    "services/dashboard/index.html",
+    "services/keys_api/index.html",
+    "services/swarm_api/index.html"
+  ],
+  "routes": [
+    "GET /",
+    "GET /health"
+  ],
+  "scripts": {
+    "start": "node gateway.js",
+    "dev": "node gateway.js",
+    "build": "echo \"static ready\"",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 8,
+    ".sh": 16,
+    ".md": 13,
+    ".js": 8,
+    ".html": 5,
+    ".txt": 9,
+    ".json": 60,
+    ".css": 4,
+    ".yml": 1,
+    ".example": 1,
+    ".sha256": 1,
+    ".py": 11,
+    ".gz": 1
+  },
+  "nfiles": 138,
+  "roots": [
+    "~/github_sync/mybuyo-restore",
+    "~/github_sync/mybuyo-foodlion-mvp",
+    "~/github_sync/mybuyoxfoodlion-pitch",
+    "~/repo_chain/mybuyo-biometric-saas",
+    "~/github_sync/mybuyo-biometric-saas"
+  ],
+  "versions": [
+    "2026-09-03_8ecfde_mybuyo-foodlion-mvp.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

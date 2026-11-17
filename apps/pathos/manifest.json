@@ -1,0 +1,65 @@
+{
+  "name": "pathos",
+  "slug": "pathos",
+  "desc": "\u26a1 PaThosAi Advanced Biometric Authentication Engine",
+  "kind": "recovered 2026-08-21",
+  "entry": "index.html",
+  "pages": [
+    "-PaTHos- (Cygel White's conflicted copy).html",
+    "index.html",
+    "public/index.html",
+    "virtual-platform/docs/agents.html",
+    "virtual-platform/docs/explainer.html",
+    "virtual-platform/docs/index.html"
+  ],
+  "routes": [
+    "GET /health",
+    "GET /modules",
+    "GET /protected",
+    "POST /execute",
+    "POST /login",
+    "POST /register"
+  ],
+  "scripts": {
+    "c25:serve": "node c25-serve.cjs",
+    "start": "node c25-serve.cjs"
+  },
+  "ext": {
+    ".html": 6,
+    ".txt": 2,
+    "": 6,
+    ".md": 2,
+    ".json": 6,
+    ".yml": 2,
+    ".js": 13
+  },
+  "nfiles": 37,
+  "roots": [
+    "~/github/pathos",
+    "~/github_sync/PaThosAi",
+    "~/github_sync/pathos",
+    "~/github_sync/PaTHos-Ai-",
+    "~/github_sync/PaTHos-OS"
+  ],
+  "versions": [
+    "2026-08-21_54ba0d_pathos.html",
+    "2026-08-21_73c943_pathos.html",
+    "2026-09-03_cada8c_PaTHos-Ai-.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

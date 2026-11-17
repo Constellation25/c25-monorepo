@@ -1,0 +1,47 @@
+{
+  "name": "kre8tive-space",
+  "slug": "kre8tive-space",
+  "desc": "Module recovered from this device and packaged for deployment.",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "index.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "build": "mkdir -p dist && find . -maxdepth 3 -name '*.html' -exec cp {} dist/ \\; 2>/dev/null || true",
+    "start": "python3 -m http.server 8000 --directory dist",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    ".example": 1,
+    "": 2,
+    ".md": 1,
+    ".json": 5,
+    ".html": 1
+  },
+  "nfiles": 10,
+  "roots": [
+    "~/github_sync/kre8tive-konceptz"
+  ],
+  "versions": [
+    "2026-09-03_c7c765_kre8tive-konceptz.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

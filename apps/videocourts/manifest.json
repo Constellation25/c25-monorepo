@@ -1,0 +1,72 @@
+{
+  "name": "videocourts",
+  "slug": "videocourts",
+  "desc": "Module recovered from this device and packaged for deployment.",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [],
+  "routes": [
+    "GET /",
+    "GET /health",
+    "GET /healthz",
+    "GET /modules",
+    "GET /user/:uid/photos/:file",
+    "POST /execute",
+    "POST /run-task",
+    "ROUTE /",
+    "ROUTE /healthz",
+    "ROUTE /log_click",
+    "ROUTE /pixel.gif",
+    "ROUTE /qr_affiliate.png",
+    "ROUTE /redirect",
+    "ROUTE /run-task"
+  ],
+  "scripts": {
+    "start": "echo 'Constellation25 module: videocourts_backend'",
+    "build": "echo 'Build complete'",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 2,
+    ".md": 2,
+    ".json": 93,
+    ".yml": 1,
+    ".py": 351,
+    ".js": 4077,
+    ".ts": 1428,
+    ".sh": 84
+  },
+  "nfiles": 6038,
+  "roots": [
+    "~/repo_chain/videocourts_backend",
+    "~/github_sync/videocourts_backend",
+    "~/repo_chain/VideoCourts",
+    "~/github_sync/VideoCourts",
+    "~/repo_chain/videocourts-org_BACKUP_1774926493",
+    "~/github_sync/videocourts-org_BACKUP_1774926493",
+    "~/github_sync/c25-find-videocourts",
+    "~/github_sync/VideoCourts-",
+    "~/github_sync/videocourts-org"
+  ],
+  "versions": [
+    "2026-09-03_4df4bd_VideoCourts.html",
+    "2026-09-03_86c623_c25-find-videocourts.html",
+    "2026-09-03_f69a9c_VideoCourts.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "debug_1787837447149790096",
+  "timestamp": "2026-08-27T09:30:47-04:00",
+  "priority": "CRITICAL",
+  "assigned_agent": "Earth",
+  "debugger": "Qwen/Ollama",
+  "payload": {
+    "source_script": "ERROR",
+    "error_log": "ERROR: This script requires superuser permissions. Please re-run as root.",
+    "action": "analyze_and_fix"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "vite": "^7.0.6"
+  },
+  "scripts": {
+    "build": "vite build",
+    "c25:serve": "node c25-serve.cjs",
+    "start": "node c25-serve.cjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0"
+  },
+  "name": "aikre8tive",
+  "version": "0.1.0",
+  "description": "\u26a1 ARC.AI-Stargate Advanced Biometric Authentication Engine"
+}

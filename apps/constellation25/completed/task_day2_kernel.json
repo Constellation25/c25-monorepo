@@ -1,0 +1,18 @@
+{
+  "agent": "Sun",
+  "priority": "CRITICAL",
+  "task": "Read the 25 most important files from PaTHos and Orange. Focus on: server.js, pathos.js, main entry points, routing logic, agent orchestration, licensing. Write canonical textbook chapter.",
+  "payload": {
+    "action": "canonical_documentation",
+    "phase": "day2_kernel",
+    "smart_selection": true,
+    "max_files": 25,
+    "skip_patterns": ["node_modules", "package-lock.json", ".npm", ".cache", "__pycache__", ".git"],
+    "priority_extensions": [".js", ".py", ".json", ".html", ".env", ".md"],
+    "repos": ["~/github/pathos", "~/github/orange"],
+    "output": "~/c25_textbook/chapters/02_kernel.md",
+    "style": "textbook_canonical",
+    "wake_ollama": true,
+    "model": "qwen2.5-coder:7b"
+  }
+}

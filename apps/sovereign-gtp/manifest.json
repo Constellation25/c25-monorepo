@@ -1,0 +1,69 @@
+{
+  "name": "sovereign-gtp",
+  "slug": "sovereign-gtp",
+  "desc": "ARC.AI ProofStack \ud83e\uddec This LEGYC Dash was deployed by MrGGTP as the official sovereign origin stack for ARC.AI.",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "badge_verification_20250803_195418.html",
+    "badge_verification_SCAF_Codex_20250803_195122.html",
+    "badge_verification_SCAF_Codex_20250803_195122_20250803_200221.html",
+    "badge_verification_SCAF_Codex_20250803_200648.html",
+    "badge_verification_SCAF_Codex_20250803_200925.html",
+    "index.html",
+    "logs/badge_verification_SCAF_Codex_PHASE2_20250803_201325.html",
+    "logs/badge_verification_SCAF_Codex_PHASE2_20250803_201415.html",
+    "logs/badge_verification_SCAF_Codex_PHASE3_20250803_201612.html",
+    "logs/badge_verification_SCAF_Codex_PHASE3_20250803_201651.html",
+    "logs/badge_verification_SCAF_Codex_PHASE3_20250803_201815.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "c25:serve": "node c25-serve.cjs",
+    "start": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 1,
+    ".txt": 16,
+    ".md": 3,
+    ".gz": 2,
+    ".env": 2,
+    ".m": 1,
+    ".json": 2,
+    ".html": 11,
+    ".gpg": 1,
+    ".yml": 2,
+    ".svg": 1
+  },
+  "nfiles": 42,
+  "roots": [
+    "~/github/sovereigngtp",
+    "~/github_sync/AiKre8tive-Sovereign-GTP-",
+    "~/github_sync/SovereignGTP",
+    "~/github_sync/c25-sovereigngtp",
+    "~/sovereign_gtp",
+    "~/github_sync/sovereign-gtp"
+  ],
+  "versions": [
+    "2026-09-03_b642d9_c25-sovereigngtp.html",
+    "2026-09-03_ed5091_SovereignGTP.html",
+    "2026-09-07_34be62_sovereign-gtp.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

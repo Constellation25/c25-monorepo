@@ -1,0 +1,64 @@
+{
+  "name": "cygnus",
+  "slug": "cygnus",
+  "desc": "\u26a1 CygNusMaster- Advanced Biometric Authentication Engine",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "863143512(1).html",
+    "863143512.html",
+    "ePwKgKp69GE.html",
+    "index.html",
+    "inner.html",
+    "lj0bFX9HXeE.html",
+    "m-outer-93afeeb17bc37e711759584dbfc50d47.html",
+    "rul.html",
+    "saved_resource.html",
+    "public/index.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "c25:serve": "node c25-serve.cjs",
+    "start": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 9,
+    ".png": 16,
+    ".html": 10,
+    ".css": 22,
+    ".webp": 21,
+    ".md": 3,
+    ".go": 75,
+    ".tmpl": 2,
+    ".svg": 3,
+    ".0": 1,
+    ".txt": 3,
+    ".json": 1,
+    ".yml": 1,
+    ".js": 23
+  },
+  "nfiles": 190,
+  "roots": [
+    "~/github_sync/CygNusMaster-"
+  ],
+  "versions": [
+    "2026-09-03_c9a4fd_CygNusMaster-.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

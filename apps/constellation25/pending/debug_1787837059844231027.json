@@ -1,0 +1,12 @@
+{
+  "task_id": "debug_1787837059844231027",
+  "timestamp": "2026-08-27T09:24:20-04:00",
+  "priority": "CRITICAL",
+  "assigned_agent": "Earth",
+  "debugger": "Qwen/Ollama",
+  "payload": {
+    "source_script": "Traceback",
+    "error_log": "Traceback (most recent call last):",
+    "action": "analyze_and_fix"
+  }
+}

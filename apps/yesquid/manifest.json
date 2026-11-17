@@ -1,0 +1,60 @@
+{
+  "name": "yesquid",
+  "slug": "yesquid",
+  "desc": "yesquid-pro Part of Constellation25 ecosystem.",
+  "kind": "original",
+  "entry": "public/index.html",
+  "pages": [
+    "index.html",
+    "public/index.html",
+    "yesquid-agents/index.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "start": "echo OK",
+    "build": "echo built",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 2,
+    ".md": 1,
+    ".py": 1,
+    ".json": 8,
+    ".html": 3,
+    ".css": 2,
+    ".yml": 1,
+    ".svg": 4,
+    ".js": 2,
+    ".png": 1
+  },
+  "nfiles": 25,
+  "roots": [
+    "~/yesquid-pro",
+    "~/github_sync/yesquid-pro",
+    "~/yesquidpro-omnibus",
+    "~/github_sync/c25-yesquid-task-worker"
+  ],
+  "versions": [
+    "2026-09-03_08d2a5_yesquid-pro.html",
+    "2026-09-03_623a66_c25-yesquid-task-worker.html",
+    "2026-09-03_f4937a_yesquid-pro.html",
+    "2026-09-07_20e811_yesquid-pro.html",
+    "2026-09-07_30eb76_yesquidpro-omnibus.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

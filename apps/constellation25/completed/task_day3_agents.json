@@ -1,0 +1,14 @@
+{
+  "agent": "Earth",
+  "priority": "CRITICAL",
+  "task": "Read every file in ~/agents and ~/c25_ipc chronologically. Write canonical chapter explaining: The 25 Planetary Agents architecture, how c25_ipc message bus works, task routing, the self-healing loops (morphous.sh), ethical scanning (neo.sh), provenance tracking. Explain the micro-service mesh pattern. Output to ~/c25_textbook/chapters/03_agents.md",
+  "payload": {
+    "action": "canonical_documentation",
+    "phase": "day3_agents",
+    "dirs": ["~/agents", "~/c25_ipc"],
+    "output": "~/c25_textbook/chapters/03_agents.md",
+    "style": "textbook_canonical",
+    "wake_ollama": true,
+    "model": "qwen2.5-coder:7b"
+  }
+}

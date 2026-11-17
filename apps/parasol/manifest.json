@@ -1,0 +1,50 @@
+{
+  "name": "parasol",
+  "slug": "parasol",
+  "desc": "C25 Constellation25 module - c25-parasol-termux",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "index.html",
+    "public/index.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "start": "node index.js 2>/dev/null || bash run.sh",
+    "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+    "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 3,
+    ".md": 1,
+    ".html": 2,
+    ".json": 2,
+    ".sh": 2,
+    ".yml": 2
+  },
+  "nfiles": 12,
+  "roots": [
+    "~/github_sync/c25-parasol-termux"
+  ],
+  "versions": [
+    "2026-09-03_00ec23_c25-parasol-termux.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

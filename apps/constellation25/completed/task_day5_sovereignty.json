@@ -1,0 +1,14 @@
+{
+  "agent": "Saturn",
+  "priority": "CRITICAL",
+  "task": "Read every file in SovereignGTP, SCAF vault, VeRseD, PoRTaLed chronologically. Write canonical chapter explaining: Cryptographic provenance, IPFS hashing, chain broadcasts, Claims of Origin, licensing enforcement, identity persistence. Explain how sovereignty is enforced cryptographically. Output to ~/c25_textbook/chapters/05_sovereignty.md",
+  "payload": {
+    "action": "canonical_documentation",
+    "phase": "day5_sovereignty",
+    "repos": ["SovereignGTP", "SCAF", "VeRseD", "PoRTaLed"],
+    "output": "~/c25_textbook/chapters/05_sovereignty.md",
+    "style": "textbook_canonical",
+    "wake_ollama": true,
+    "model": "qwen2.5-coder:7b"
+  }
+}

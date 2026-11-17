@@ -1,0 +1,15 @@
+{
+  "name": "videocourts_backend",
+  "version": "2.0.0",
+  "private": false,
+  "scripts": {
+    "start": "echo 'Constellation25 module: videocourts_backend'",
+    "build": "echo 'Build complete'",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "constellation25": {
+    "build_id": "20260402_015641",
+    "agent": "pathos-sovereign-1"
+  },
+  "description": "Module recovered from this device and packaged for deployment."
+}

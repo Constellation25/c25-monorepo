@@ -1,0 +1,10 @@
+{
+  "name": "digital-dollar",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo built",
+    "start": "echo ok",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "description": "digital-dollar Constellation25 Sovereign AI OS \u2014 Kre8tive Konceptz LTD FacePrintPay | @MrGGTP | github.com/FacePrintPay"
+}

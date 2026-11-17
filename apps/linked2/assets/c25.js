@@ -1,0 +1,2 @@
+(function(){var q=document.getElementById('q');if(q){q.addEventListener('input',function(){var v=q.value.toLowerCase();document.querySelectorAll('[data-s]').forEach(function(e){e.style.display=e.getAttribute('data-s').indexOf(v)>-1?'':'none'})})}
+var b=document.getElementById('live');if(b){fetch('api/health').then(function(r){return r.ok?r.json():Promise.reject()}).then(function(){b.textContent=b.textContent+' | server online'}).catch(function(){})}})();

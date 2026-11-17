@@ -1,0 +1,14 @@
+{
+  "agent": "Pallas",
+  "priority": "CRITICAL",
+  "task": "Read every file in FacePrintPay, MyBuyo, Digital Dollar, VideoCourts repos chronologically. Write canonical chapter explaining: Biometric payment rail architecture, identity verification, commerce engine logic, affiliate funnels, decentralized justice system. Explain how commerce flows through the mesh. Output to ~/c25_textbook/chapters/04_commerce.md",
+  "payload": {
+    "action": "canonical_documentation",
+    "phase": "day4_commerce",
+    "repos": ["FacePrintPay", "MyBuyo", "DigitalDollar", "VideoCourts"],
+    "output": "~/c25_textbook/chapters/04_commerce.md",
+    "style": "textbook_canonical",
+    "wake_ollama": true,
+    "model": "qwen2.5-coder:7b"
+  }
+}

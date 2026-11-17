@@ -1,0 +1,68 @@
+{
+  "name": "agentik",
+  "slug": "agentik",
+  "desc": "C25 Constellation25 module - agentik",
+  "kind": "generated",
+  "entry": "index.html",
+  "pages": [
+    "index.html",
+    "docs/index.html",
+    "docs/bitpay/index.html",
+    "product/web/index.html",
+    "public/index.html",
+    "src/web/index.html"
+  ],
+  "routes": [],
+  "scripts": {
+    "start": "node index.js 2>/dev/null || bash run.sh",
+    "test": "bash tests/test.sh 2>/dev/null || echo 'no tests'",
+    "build": "bash src/build.sh 2>/dev/null || echo 'built'",
+    "c25:serve": "node c25-serve.cjs"
+  },
+  "ext": {
+    "": 10,
+    ".png": 18,
+    ".md": 3,
+    ".bak": 1,
+    ".py": 1,
+    ".json": 20,
+    ".html": 6,
+    ".sh": 5,
+    ".css": 1,
+    ".yml": 3,
+    ".20260311": 5,
+    ".txt": 2,
+    ".sha256": 1
+  },
+  "nfiles": 76,
+  "roots": [
+    "~/agentik",
+    "~/github_sync/agentik",
+    "~/archives/agentik/agentik",
+    "~/repo_chain/Agentik",
+    "~/github_sync/c25-archive-agentik",
+    "~/github_sync/Agentik"
+  ],
+  "versions": [
+    "2026-08-29_04e521_agentik.html",
+    "2026-09-03_582d06_c25-archive-agentik.html",
+    "2026-09-03_b5251a_Agentik.html"
+  ],
+  "assets_got": 0,
+  "assets_missing": [],
+  "server_entry": "c25-serve.cjs",
+  "generated": [
+    "package.json (updated)",
+    "assets/c25.css",
+    "assets/c25.js",
+    "index.html",
+    "c25-overview.html",
+    "c25-serve.cjs",
+    "serve.sh",
+    "netlify.toml",
+    ".nojekyll",
+    "_headers",
+    ".github/workflows/pages.yml",
+    "README.c25.md"
+  ]
+}

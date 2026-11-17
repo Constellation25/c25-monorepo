@@ -1,0 +1,10 @@
+{
+  "name": "sovereign-gtp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "c25:serve": "node c25-serve.cjs",
+    "start": "node c25-serve.cjs"
+  },
+  "description": "ARC.AI ProofStack \ud83e\uddec This LEGYC Dash was deployed by MrGGTP as the official sovereign origin stack for ARC.AI."
+}
